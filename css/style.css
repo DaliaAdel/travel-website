@@ -1,0 +1,189 @@
+body
+{
+    background-color: rgb(243, 243, 243);
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #555;
+}
+header
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/Business-Travel-Header-Image.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+section{
+    padding: 40px 0px;
+}
+
+.s1
+{
+    position: absolute;
+    top: 50%; left: 100px;
+    color: white;
+    width: 50%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    transform: translateY(-50%);
+
+}
+.a1:link ,.a1:visited
+{
+
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+.a1:hover , .a1:active
+{
+    background-color: #4447d1d3;
+}
+#s2
+{
+    margin-top: 20px;
+    text-transform: capitalize;
+    position: relative;
+    background-color: white;
+   
+}
+
+.box1
+{
+position: relative;
+margin-bottom: 20px;
+}
+.box1 img
+{
+ width: 100%;
+ height: 500px; 
+ 
+}
+ #s3
+{
+    position: relative;
+} 
+.box2
+{
+    padding: 20px;
+    background-color: #d4d3d3;
+    position: relative;
+    
+}
+
+.img2
+{
+   width: 100%;
+   padding-left: 15%;
+    
+}
+.div2
+{
+   color: black;
+  margin-top: 10%;
+} 
+.div2 h2
+{
+    font-size: 300%;
+}
+.div2 p
+{
+    font-size: 150%;
+}
+.div1 p
+{
+    font-size: 150%;
+}
+.a2:link ,.a2:visited
+{
+
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    margin-left: 30px;
+}
+
+.a2:hover , .a2:active
+{
+   background-color: #4447d1d3;
+   border: 2px solid #4447d1d3;
+    color: white;
+}
+
+.meal
+{
+    padding: 0px; overflow: hidden;
+    background-color: black;
+    
+}
+.meal img
+{
+    width: 100%;
+    /* opacity: 0.5; */
+    transition: all 0.5s;
+
+}
+.meal img:hover
+{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+input[type=text] , input[type=email] , select , textarea {
+    width: 100%; padding: 7px; border-radius: 5px;
+    margin-bottom: 10px;
+    border: solid 1px #ccc;
+}
+
+textarea{
+    height: 200px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0px;
+}
+button
+{
+    background-color:#4447d1d3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 120px;
+    border: 1px solid #4447d1d3;
+}
+
+footer{
+    padding: 30px 0px; background-color: #333;
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center; color: #ddd;
+}
+
+.footer-nav{
+    list-style: none; float: left;
+}
+.social-nav{
+    list-style: none; float: right;
+}
+
+.footer-nav li , .social-nav li{
+    display: inline-block; margin-left: 20px;
+}
+
+.footer-nav li a:link , .footer-nav li a:visited , .social-nav li a:link , .social-nav li a:visited{
+    color: #888; text-decoration: none;
+}
+
+.footer-nav li a:hover , .footer-nav li a:active , .social-nav li a:hover , .social-nav li a:active{
+    color: #ddd; text-decoration: underline;
+}
