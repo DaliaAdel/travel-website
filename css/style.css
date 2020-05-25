@@ -29,6 +29,13 @@ section{
     transform: translateY(-50%);
 
 }
+.s1 h1{
+    text-transform: uppercase;
+    font-size: 56px;
+}
+.s1 p{
+    font-size: medium;
+}
 .a1:link ,.a1:visited
 {
 
@@ -170,10 +177,10 @@ footer p{
 }
 
 .footer-nav{
-    list-style: none; float: left;
+    list-style: none;
 }
 .social-nav{
-    list-style: none; float: right;
+     list-style: none;
 }
 
 .footer-nav li , .social-nav li{
@@ -186,4 +193,38 @@ footer p{
 
 .footer-nav li a:hover , .footer-nav li a:active , .social-nav li a:hover , .social-nav li a:active{
     color: #ddd; text-decoration: underline;
+}
+
+
+
+/* for  small screen */
+@media only screen and (max-width:900px) 
+{
+    .s1 h1{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .s1 p{
+        font-size: medium;
+    }
+    .footer-nav a , .social-nav a{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .div2 h2
+    {
+        font-size: 20px;
+    }
+    .div2 p
+    {
+        font-size: 15px;
+    }
+    .img2
+    {
+       padding-left: 15px;
+        
+    }
+
 }
